@@ -102,9 +102,9 @@ public class Vehiculos {
         System.out.println("Modelo " + getModelo());
         System.out.println("Precio " + getPrecio());
         System.out.println("Color " + getColor());
-        System.out.println("Tipo de vehiculo" + getTipo_De_Vehiculo());
+        System.out.println("Tipo de vehiculo " + getTipo_De_Vehiculo());
         System.out.println("Motor del vehiculo " + getMotor_De_Vehiculo());
-        System.out.println("Rudas Elices o Aletas " + getRudas_Elices_Aletas_Vehiculo());
+        System.out.println("Rudas Elices o Aletas  " + getRudas_Elices_Aletas_Vehiculo());
         System.out.println("");
     }
    
