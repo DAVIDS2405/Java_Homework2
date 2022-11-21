@@ -13,5 +13,5 @@ Realizado con Vscode y lo que se tiene es lo siguiente
 
 ### Imagenes de ejecucion
 
-![Pedido de datos](img/Pedido_de_datos.png){width='100px'}
-![Presentacion de datos](img/Presentacion_de_datos.png){width='100px'}
+![Pedido de datos](img/Pedido_de_datos.png)
+![Presentacion de datos](img/Presentacion_de_datos.png)
