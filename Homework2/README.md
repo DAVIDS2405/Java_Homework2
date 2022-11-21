@@ -13,4 +13,5 @@ Realizado con Vscode y lo que se tiene es lo siguiente
 
 ### Imagenes de ejecucion
 
-
+![Pedido de datos](HOMEWORK2/img/Pedido_de_datos.png){width='100px'}
+![Presentacion de datos](HOMEWORK2/img/Presentacion_de_datos.png){width='100px'}
