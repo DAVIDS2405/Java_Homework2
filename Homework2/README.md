@@ -13,5 +13,6 @@ Realizado con Vscode y lo que se tiene es lo siguiente
 
 ### Imagenes de ejecucion
 
+![Menu Pincipal](img/Menu_Principal.png)
 ![Pedido de datos](img/Pedido_de_datos.png)
 ![Presentacion de datos](img/Presentacion_de_datos.png)
