@@ -12,13 +12,13 @@ public class Pentagono {
 
     public double Area_Pent(Pentagono){
         double ap;
-
-
         return (base * altura)/2 ;
     }
     public double Perimetro_Pent(Pentagono){
         return numlados * lado;
     }
-    public double Apotema_Pent(Pentagono){
+    public double Apotema_Pent(Pentagono)
+    {
         return Math.sqrt((Math.pow(lado,2)) - (Math.pow(alfa,2)),2);
+    }
 }

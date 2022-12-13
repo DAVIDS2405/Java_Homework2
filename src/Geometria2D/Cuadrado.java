@@ -1,7 +1,7 @@
 package Geometria2D;
 
 public class Cuadrado {
-    double lado
+    double lado;
 
     //perimetro area diamtetro
 
