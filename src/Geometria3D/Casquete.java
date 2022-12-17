@@ -13,22 +13,25 @@ public class Casquete {
     private final double  Pi = 3.14;
     
 
-
-    //constructor
-    
-    public Casquete(double radio_Circulo, double radio_Casquete, double altura_Casquete) {
-        Radio_Circulo = radio_Circulo;
-        Radio_Casquete = radio_Casquete;
-        Altura_Casquete = altura_Casquete;
-    }
-    
-
     //methods
 
     public  double Calcular_Area_Casquete( double RadioCirculo, double AlturaCasquete ){
         Radio_Circulo = RadioCirculo;
         Altura_Casquete = AlturaCasquete;
         return  2 * Pi * Radio_Circulo * Altura_Casquete;
+    }
+
+    public double Volumen_Casquete(double RadioCirculo, double AlturaCasquete){
+        Radio_Circulo = RadioCirculo;
+        Altura_Casquete = AlturaCasquete;
+        return ((1/3) * Pi * (Math.pow(Altura_Casquete,2)) * ((3 * Radio_Circulo)- Altura_Casquete));
+    }
+    public double Radido_Casquete ( double RadioCasquete, double AlturaCasquete){
+        Radio_Casquete  = RadioCasquete;
+        Altura_Casquete = AlturaCasquete;
+
+        return ((Math.pow(Radio_Casquete, 2))+ (Math.pow(Altura_Casquete, 2)))/(2 * Altura_Casquete);
+
     }
     
 

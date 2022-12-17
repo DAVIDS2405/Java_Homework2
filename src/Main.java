@@ -3,7 +3,7 @@ import java.util.Scanner;
 import Geometria3D.Casquete;
 
 public class Main {
-    private static Casquete casquete = new Casquete(0, 0, 0);
+    private static Casquete casquete = new Casquete();
      private static Scanner sn = new Scanner(System.in);
     
     public static void main(String[] args) throws Exception {
@@ -23,6 +23,9 @@ public class Main {
             else{
 
                 int opcion3 = menu_Geometria3D();
+                while (opcion3 != 11){
+
+                }
 
             }
 

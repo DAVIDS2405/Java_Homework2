@@ -1,24 +1,22 @@
 package Geometria2D;
 
 public class Pentagono {
-    double lado, apotema;
+    private double lado, apotema;
     private int numlados=5;
-    private int alfa=36;
+    
 
-    public Pentagono(double lado) {
-        this.lado = lado;
+    public double Area_Pent(double lado1, double apotema1){
+        lado = lado1;
+        apotema = apotema1;
+        return (numlados * lado * apotema)/2; 
     }
-
-
-    public double Area_Pent(Pentagono){
-        double ap;
-        return (base * altura)/2 ;
-    }
-    public double Perimetro_Pent(Pentagono){
+    public double Perimetro_Pent(double lado1){
+        lado = lado1;
         return numlados * lado;
     }
-    public double Apotema_Pent(Pentagono)
+    public double Apotema_Pent(double lado1)
     {
-        return Math.sqrt((Math.pow(lado,2)) - (Math.pow(alfa,2)),2);
+        lado = lado1;
+        return (lado / 2)/((Math.sqrt(1 + (2 / (Math.sqrt(5))))));
     }
 }
