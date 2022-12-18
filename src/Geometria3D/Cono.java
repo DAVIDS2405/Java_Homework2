@@ -20,6 +20,12 @@ public class Cono {
         
         return (Pi * Altura * (Math.pow(Radio, 2)))/3;
     }
+    public double superficie_latera (double radio, double altura){
+        Radio = radio;
+        Altura = altura;
+        return Pi * Radio * Altura_Inclinada;
+    }
+
     
 
 }

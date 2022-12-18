@@ -13,4 +13,9 @@ public class Cubos {
         Lado = lado;
         return (Math.pow(Lado, 3));
     }
+
+    public double superficie (double lado){
+        Lado = lado;
+        return 6 * (Math.pow(Lado, 2));
+    }
 }

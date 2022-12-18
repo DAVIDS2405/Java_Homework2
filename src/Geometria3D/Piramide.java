@@ -16,5 +16,11 @@ public class Piramide {
         Altura = altura;
         return ((Math.pow(Lado, 2)) * Altura)/3;
     }
+
+    public double superficie_latera (double lado, double altura){
+        Lado = lado;
+        Altura = altura;
+        return (1/2) * (3 * Lado) * Altura;
+    }
     
 }

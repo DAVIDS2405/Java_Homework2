@@ -6,7 +6,7 @@ public class Esfera {
 
     public double area (double radio){
         Radio = radio;
-        return 4 * Pi * Radio;
+        return 4 * Pi * (Math.pow(Radio, 2));
 
     }
 

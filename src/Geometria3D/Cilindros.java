@@ -16,4 +16,12 @@ public class Cilindros {
         Altura = altura;
         return Pi * (Math.pow(Radio, 2)) * Altura;
     }
+
+    public double superficie_latera(double radio, double altura){
+        Radio = radio;
+        Altura = altura;
+        return 2 * Pi * Radio * Altura;
+
+    }
+
 }
